@@ -34,7 +34,7 @@ public class Circle extends Shape implements Colorable {
     }
 
     @Override
-    public void random() {
+    public void render() {
         System.out.println("Method implemented");
     }
 }

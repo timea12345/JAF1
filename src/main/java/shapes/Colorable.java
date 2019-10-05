@@ -8,8 +8,12 @@ public interface Colorable {
     }
 
     default void printDefaultFieldColour() {
-        System.out.println(DEFAULT_COLOR_CODE);
+        System.out.println(String.format("Default color code is %d.", DEFAULT_COLOR_CODE));
     }
 
-    abstract void random();
+    abstract void render();
+
+    class GenericColor {
+
+    }
 }
