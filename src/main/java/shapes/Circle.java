@@ -1,6 +1,7 @@
 package shapes;
 
 import javax.print.Doc;
+import java.io.IOException;
 
 public class Circle extends Shape implements Colorable {
     private Double radius;
@@ -17,7 +18,7 @@ public class Circle extends Shape implements Colorable {
         this.center = center;
     }
 
-    public double area() {
+    public double area() throws IOException {
         return Math.PI * Math.pow(radius, 2);
     }
 

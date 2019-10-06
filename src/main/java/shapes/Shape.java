@@ -29,6 +29,8 @@ public abstract class Shape {
                     ", blue=" + blue +
                     '}';
         }
+
+
     }
 
     //inner class
